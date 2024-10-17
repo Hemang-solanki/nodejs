@@ -6,13 +6,13 @@ const path = require("path")
 const http = require("http")
 
 
-// fs.readFile('app.txt','utf-8',(err,data)=>{
-//     if(err){
-//         console.log(err)
-//     }else{
-//         console.log("data"+data)
-//     }
-// })
+fs.readFile('app.txt','utf-8',(err,data)=>{
+    if(err){
+        console.log(err)
+    }else{
+        console.log("data"+data)
+    }
+})
 
 
 // let a = fs.readFileSync('app.txt','utf-8')
