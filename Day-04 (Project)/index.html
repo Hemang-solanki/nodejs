@@ -1,0 +1,1043 @@
+<html>
+    <head>
+        <title>
+            Home Page
+        </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@100;500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:wght@500&display=swap" rel="stylesheet">
+        <style>
+          * {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #d9d1d1;
+}
+.nav h4 {
+  font-style: italic;
+  color: #666;
+  padding-left: 150px;
+}
+.nav .i-font {
+  padding-right: 75px;
+  color: #666;
+  font-size: 12px;
+}
+.nav .i-font i {
+  padding-right: 40px;
+}
+.logo-nav {
+  margin: 30px;
+}
+.nav-links {
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(9, auto);
+  grid-gap: 12px;
+}
+.nav-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #3c3838ba;
+  font-weight: bold;
+  text-align: center;
+}
+.home {
+  background-color: #30bf3b;
+  color: white;
+  padding: 6px 19px 5px;
+  border-bottom: 3px solid #04040459;
+}
+
+.nav-links a i {
+  margin-left: 5px;
+  color: #30bf3b;
+}
+
+.magni {
+  color: #0000009a;
+}
+.article {
+  width: 100%;
+  height: 598px;
+  background-image: url("https://i.postimg.cc/wvXGy94j/bg6.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.article .box {
+  position: relative;
+  top: 349px;
+  left: 71px;
+  width: 548px;
+  height: 249px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-left: 3px solid #30bf3b;
+}
+
+.article .box h1 {
+  color: white;
+  padding: 42px 40px;
+}
+
+.article .box p {
+  color: white;
+  font-size: 15px;
+  line-height: 2;
+  padding-left: 42px;
+}
+
+.two-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.two-box .box-img1 {
+  width: 520px;
+  height: 238px;
+  background-image: linear-gradient(to left, transparent, black),
+    url("https://i.postimg.cc/wjnfw1SB/bg2.jpg");
+  background-size: cover;
+}
+
+.two-box .box-img1 h1 {
+  color: white;
+  padding-left: 44px;
+  padding-top: 50px;
+}
+
+.two-box .box-img1 p {
+  color: white;
+  padding-left: 44px;
+}
+
+.two-box .box-img1 a {
+  background-color: #30bf3b;
+  color: white;
+  display: inline-block;
+  margin-left: 44px;
+  margin-top: 20px;
+  padding: 14px 24px;
+  border-left: 3px solid #04040459;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.two-box .box-img2 {
+  width: 520px;
+  height: 238px;
+  background-image: linear-gradient(to left, transparent, black),
+    url("https://i.postimg.cc/YSgXZpHz/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.two-box .box-img2 h1 {
+  color: white;
+  padding-left: 44px;
+  padding-top: 50px;
+}
+
+.two-box .box-img2 p {
+  color: white;
+  padding-left: 44px;
+}
+
+.two-box .box-img2 a {
+  background-color: #30bf3b;
+  color: white;
+  display: inline-block;
+  margin-left: 44px;
+  margin-top: 20px;
+  padding: 14px 24px;
+  border-left: 3px solid #04040459;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 25px;
+}
+.food {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+.Receipies .img img {
+  width: 350px;
+  height: 300px;
+  border-bottom: 3px solid #30bf3b;
+}
+.Receipies .img p {
+  text-align: center;
+}
+.Receipies .img .star {
+  text-align: center;
+  font-size: 10px;
+  color: orange;
+}
+.photo {
+  display: grid;
+  grid-template-rows: repeat(1, max-content);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.postimg.cc/wvqh2HTv/bg4.jpg");
+  width: 100%;
+  height: 640px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.photo h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  grid-area: 4;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.photo p {
+  color: white;
+  font-size: 15px;
+  margin: auto;
+  text-align: center;
+  width: 600px;
+  height: fit-content;
+  grid-area: 5;
+}
+
+.photo .btn {
+  background-color: #30bf3b;
+  color: white;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-left: 3px solid #04040459;
+  text-decoration: none;
+  font-weight: bold;
+  width: 238px;
+  grid-area: 6;
+}
+
+.photo .angle-up {
+  position: fixed;
+  bottom: 52px;
+  right: 33px;
+  background-color: #30bf3b;
+  color: white;
+  display: inline-block;
+  margin-left: 94%;
+  margin-top: 25px;
+  padding: 9px 17px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0px 0px 4px 0px rgb(70, 69, 69);
+  z-index: 100000;
+}
+
+.feedback {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.feedback .feed {
+  display: flex;
+  align-items: center;
+}
+.feedback .feed .box-text {
+  margin-left: 20px;
+  line-height: 2.4;
+}
+
+.feedback .feed .box-text .h-1 {
+  color: forestgreen;
+  font-size: 14px;
+}
+
+.feedback .feed .box-text h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.feedback .feed .box-text .i {
+  color: orange;
+  font-size: 10px;
+}
+
+.feedback .feed .box-text .h-2 {
+  color: gray;
+  font-size: 13px;
+}
+.subscribe {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 100%;
+  margin: 80px 0 30px;
+}
+
+.subscribe .sub-1 {
+  width: 350px;
+  height: 415px;
+  border: 8px solid #30bf3b;
+}
+
+.subscribe .sub-1 h1 {
+  color: #30bf3b;
+  text-align: center;
+  padding: 35px;
+  font-size: 55px;
+  font-family: fangsong;
+  font-style: italic;
+}
+
+.subscribe .sub-1 p {
+  color: #000000c2;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: -30px;
+}
+
+.subscribe .sub-1 h5 {
+  text-align: center;
+  padding: 40px;
+  font-size: 15px;
+  font-weight: normal;
+  margin-top: -17px;
+}
+
+.subscribe .sub-1 .history {
+  display: inline-block;
+  color: #30bf3b;
+  padding-left: 30px;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.subscribe .sub-1 .comments {
+  display: inline-block;
+  padding-left: 100px;
+  color: #808080c4;
+  font-size: 12px;
+  font-weight: normal;
+}
+.subscribe .sub-photo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://i.postimg.cc/tTcY6Hs8/bg1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  width: 370px;
+  height: 415px;
+}
+
+.subscribe .sub-photo input {
+  background-color: white;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 16px;
+  padding: 20px;
+  width: 341px;
+  border-left: 5px solid green;
+}
+
+.subscribe .sub-photo input::placeholder {
+  font-style: italic;
+  font-size: 11px;
+}
+
+.subscribe .sub-photo a {
+  background-color: #30bf3b;
+  color: white;
+  display: inline-block;
+  margin-left: 17px;
+  margin-top: 20px;
+  padding: 20px 133px;
+  border-left: 3px solid #04040459;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.subscribe .sub-photo p {
+  color: white;
+  font-size: 12px;
+  font-style: italic;
+  margin-top: 30px;
+  margin-left: 20px;
+  line-height: 2;
+}
+
+.special {
+  background-image: url("https://i.postimg.cc/d13hD0V8/add.png");
+  background-size: cover;
+  width: 370px;
+  height: 415px;
+}
+
+.footer {
+  width: 100%;
+  border-top: 1px solid #d9d1d1;
+  border-bottom: 1px solid #d9d1d1;
+}
+.footer .footer-1 h3 {
+  margin-top: 40px;
+  margin-left: 100px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer .footer-1 .footer-photo {
+  margin: 30px 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer .footer-1 .footer-photo img {
+  width: 190px;
+}
+.footer .footer-1 .footer-photo .background-green {
+  position: relative;
+  width: 190px;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(66, 212, 53, 0.9),
+      rgba(66, 212, 53, 0.9)
+    ),
+    url("https://i.postimg.cc/Wb35jmV3/insta3.jpg");
+}
+.footer .footer-1 .footer-photo .background-green i {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+footer p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* Start Media Query */
+
+@media (max-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+  .nav h4 {
+    display: none;
+  }
+  .nav .i-font {
+    display: none;
+  }
+  .logo {
+    display: block;
+  }
+  .logo img {
+    display: block;
+    margin: 20px auto;
+  }
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .nav-links a {
+    padding-bottom: 17px;
+    color: #646161;
+    font-size: small;
+  }
+  .magni {
+    color: white;
+    margin: -45px -16px;
+  }
+  .article {
+    width: 100%;
+    background-image: url(../images/bg-img/bg6.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .article .box {
+    width: 100%;
+    margin: 0 -70px;
+  }
+  .article .box h1 {
+    font-size: larger;
+    color: #222121;
+    text-shadow: 1px 2px 5px white;
+  }
+  .article .box p {
+    margin: -20px 0px;
+  }
+  .two-box {
+    display: block;
+  }
+  .two-box .box-img1 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .two-box .box-img2 {
+    width: 100%;
+  }
+  .photo h1 {
+    text-align: center;
+    font-size: xx-large;
+  }
+  .photo p {
+    width: 100%;
+  }
+  .photo .btn {
+    text-align: center;
+    padding: 8px;
+    margin-top: 70px;
+  }
+  .subscribe {
+    display: block;
+    margin: 0;
+  }
+  .subscribe .sub-1 {
+    margin: 30px auto;
+    width: 330px;
+  }
+  .subscribe .sub-1 .history {
+    margin: 10px -5px;
+  }
+  .subscribe .sub-2 {
+    text-align: center;
+  }
+  .subscribe .sub-photo {
+    margin: auto;
+  }
+  .subscribe .special {
+    margin: 30px auto;
+  }
+  .footer .footer-1 h3 {
+    text-align: center;
+    margin: 40px auto;
+  }
+  .footer .footer-1 .footer-photo {
+    display: block;
+  }
+  .footer .footer-1 .footer-photo img {
+    display: block;
+    margin: auto;
+    padding-bottom: 15px;
+    width: 340px;
+  }
+  .footer .footer-1 .footer-photo .background-green {
+    position: relative;
+    width: 340px;
+    height: 355px;
+    background-size: cover;
+    background-image: linear-gradient(
+        rgba(66, 212, 53, 0.9),
+        rgba(66, 212, 53, 0.9)
+      ),
+      url("../images/bg-img/insta3.jpg");
+    margin: 0 auto 15px;
+  }
+  footer p {
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+        </style>
+    </head>
+    <div class="nav">
+      <h4>Hello Delicious!</h4>
+      <img src="https://i.postimg.cc/Kc764DCD/logo.png" alt="Logo">
+      <div class="i-font">
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-solid fa-basketball"></i>
+        <i class="fa-brands fa-behance"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+    </div>
+    <div class="logo-nav">
+      <div class="nav-links">
+        <a href="#"><span class="home">home</span></a>
+        <a href="#">pages<i class="fa-solid fa-angle-down"></i></a>
+        <a href="#">mega menu<i class="fa-solid fa-angle-down"></i></a>
+        <a href="#">receipies</a>
+        <a href="#">4 vegans</a>
+        <a href="#">booking</a>
+        <a href="#">occasions</a>
+        <a href="#">contact</a>
+        <a href="#"><i class="magni fa-solid fa-magnifying-glass"></i></a>
+      </div>
+    </div>
+    <div class="article">
+      <div class="box">
+        <h1>Delicious Homemade Burger</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Itaque totam ullam eum? Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
+      </div>
+    </div>
+    <div class="two-box">
+      <div class="box-img1">
+        <h1>Strawberry Cake</h1>
+        <p>Simple & Delicious</p>
+        <a href="#">See Full Receipe</a>
+      </div>
+      <div class="box-img2">
+        <h1>Chinesse Noodles</h1>
+        <p>Simple & Delicious</p>
+        <a href="#">See Full Receipe</a>
+      </div>
+    </div>
+    <h1 class="center">The Best Receipies</h1>
+    <div class="food">
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/NFNbmF6B/insta1.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/sfKTt6tq/insta2.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/Wb35jmV3/insta3.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/KvHJYKc5/insta4.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/Vk040YdP/insta5.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/jjVczG7w/insta6.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/jjzXvZH8/insta7.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/NFNbmF6B/insta1.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/Wb35jmV3/insta3.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+      <div class="Receipies">
+        <div class="img">
+          <img src="https://i.postimg.cc/sfKTt6tq/insta2.jpg" alt="">
+          <p>Sushi Easy Receipy</p>
+          <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="photo">
+      <h1>Gluten Free Receipies</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, ea vitae.
+        Expedita eaque incidunt modi impedit accusantium quibusdam aut commodi. Quo nobis
+        velit illum ipsam laboriosam nulla tempora quisquam at Lorem ipsum dolor sit amet consectetur
+        adipisicing.</p>
+      <a href="#" class="btn">Discover All The Receipies</a>
+      <a href="#" class="angle-up"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+    <div class="feedback">
+      <div class="feed">
+        <img src="https://i.postimg.cc/BbyHJK5L/sr1.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/CM6jG3yh/sr2.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/gkC853k1/sr3.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/3J42nt7g/sr4.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/zGTK13yv/sr5.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/KYFLcFTN/sr6.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/76Z27VmJ/sr7.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/9fp9rStj/sr8.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/gJt6KZTS/sr9.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/BbyHJK5L/sr1.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/CM6jG3yh/sr2.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/gkC853k1/sr3.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/3J42nt7g/sr4.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/zGTK13yv/sr5.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+      <div class="feed">
+        <img src="https://i.postimg.cc/KYFLcFTN/sr6.jpg" alt="">
+        <div class="box-text">
+          <h5 class="h-1">January 04,2018</h5>
+          <h3>Homemade italian pasta</h3>
+          <div class="i">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h5 class="h-2">2 Comments</h5>
+        </div>
+      </div>
+    </div>
+    <div class="subscribe">
+      <div class="sub-1">
+        <h1>"</h1>
+        <p>Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Commodi earum sed
+          voluptatum aperiam? Fugiat, reiciendis?</p>
+        <h5>John Smith</h5>
+        <h6 class="history">January 04,2018</h6>
+        <h6 class="comments">2 Comments</h6>
+      </div>
+      <div class="sub-photo">
+        <input type="text" placeholder="Subscribe to newsletter">
+        <a href="#">Subscribe</a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Perferendis asperiores doloribus nemo et dolor sit
+          perspiciatis neque repellendus rerum aspernatur?</p>
+      </div>
+      <div class="special"></div>
+    </div>
+    <div class="footer">
+      <div class="footer-1">
+        <h3>Follow Us Instagram</h3>
+        <div class="footer-photo">
+          <img class="footer-img1" src="https://i.postimg.cc/NFNbmF6B/insta1.jpg" alt="">
+          <img class="footer-img2" src="https://i.postimg.cc/sfKTt6tq/insta2.jpg" alt="">
+          <div class="background-green">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <img class="footer-img4" src="https://i.postimg.cc/KvHJYKc5/insta4.jpg" alt="">
+          <img class="footer-img5" src="https://i.postimg.cc/Vk040YdP/insta5.jpg" alt="">
+          <img class="footer-img6" src="https://i.postimg.cc/jjVczG7w/insta6.jpg" alt="">
+          <img class="footer-img7" src="https://i.postimg.cc/jjzXvZH8/insta7.jpg" alt="">
+          <img class="footer-img7" src="https://i.postimg.cc/sfKTt6tq/insta2.jpg" alt="">
+          <img class="footer-img7" src="https://i.postimg.cc/KvHJYKc5/insta4.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright &copy;2018 All right reserved | This template is made with &#x2661; by</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
