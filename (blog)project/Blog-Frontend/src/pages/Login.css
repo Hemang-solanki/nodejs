@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+/* Form Container */
+.login {
+  background-color: #fff;
+  padding: 30px 20px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease-in-out;
+}
+
+.login h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #6a11cb;
+}
+
+/* Input Fields */
+.login input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.login input:focus {
+  border-color: #6a11cb;
+  box-shadow: 0 0 5px rgba(106, 17, 203, 0.5);
+}
+
+/* Buttons */
+.login button {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.login button[type="submit"] {
+  background-color: #6a11cb;
+  color: #fff;
+}
+
+.login button[type="submit"]:hover {
+  background-color: #4c0ca5;
+  transform: scale(1.05);
+}
+
+.login .forgot-password-btn {
+  background-color: transparent;
+  color: #6a11cb;
+  text-align: center;
+  border: 2px solid #6a11cb;
+  margin-top: 10px;
+}
+
+.login .forgot-password-btn:hover {
+  background-color: #6a11cb;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.login {
+  animation: fadeIn 1s ease forwards;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login {
+    padding: 20px 15px;
+  }
+
+  .login h2 {
+    font-size: 1.5rem;
+  }
+
+  .login button {
+    font-size: 0.9rem;
+  }
+}
